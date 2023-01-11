@@ -1,0 +1,27 @@
+.App-header, .App-section {
+  padding: 40px $gap-size;
+  background-color: #ffffff;
+
+  &.is--dark {
+    background-color: #f0f0f0;
+  }
+
+  @include breakpoint {
+    padding: 60px 0;
+  }
+}
+
+ 
+  .App-container {
+    width: 100%;
+    max-width: $container-width;
+    margin: 0 auto;
+
+    &.is--large {
+      max-width: $container-width-l;
+    }
+  }
+
+  .App-divider {
+    border-bottom: $border-thickness solid white;
+  }

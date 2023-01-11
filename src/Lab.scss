@@ -1,0 +1,28 @@
+$lab-image-size: 300px;
+
+.Lab {}
+
+  .Lab-project {
+    @include flex-container;
+    margin-bottom: 20px;
+  }
+
+  .Lab-image {
+    flex: 1 0 $lab-image-size;
+    width: $lab-image-size;
+    height: $lab-image-size;
+    padding: 1px;
+    background: linear-gradient(to bottom, black, $font-color-grey);
+
+    img {
+      max-width: 100%;
+    }
+
+    @include breakpoint {
+
+    }
+  }
+
+  .Lab-description {
+    flex: 1 1 100%;
+  }

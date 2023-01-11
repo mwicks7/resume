@@ -1,0 +1,41 @@
+$about-image-size: 155px;
+
+.About {
+  @include flex-container;
+  
+  @include breakpoint {
+    align-items: center;
+  }
+}
+
+  .About-image {
+    flex: 1 0 $about-image-size;
+    width: $about-image-size;
+    height: $about-image-size;
+    margin: 0 auto;
+    padding: $border-thickness;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #00c6ff, white);
+
+    img {
+      max-width: 100%;
+      border-radius: 50%;
+    }
+
+    @include breakpoint {
+      margin: 0;
+    }
+  }
+
+  .About-description {
+    flex: 1 1 100%;
+    
+    h1 {
+      line-height: 42px;
+    }
+
+    p {
+      font-size: $font-size-l;
+      line-height: 24px;
+    }
+  }
