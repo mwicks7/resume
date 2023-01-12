@@ -2,7 +2,7 @@ function Article () {
   return (
     <article className="Lab-project">
       <div className="Lab-image">
-        <img height="300" width="300" alt="The Table of Fifths" src="images/lab_table_of_fifths7.jpg" />
+        <img height="300" width="300" alt="The Table of Fifths" src="images/lab_table_of_fifths7.webp" />
       </div>
       <div className="Lab-description">
         <h3 className="Lab-name">The Table of Fifths React App</h3>
