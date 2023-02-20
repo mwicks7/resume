@@ -1,8 +1,10 @@
+import imageProfile from './images/profile_photo.webp'
+
 function About () {
   return (
     <div className="About">
       <div className="About-image">
-        <img height="155" width="155" alt="Matthew Wicks" src="images/profile_photo.webp" />
+        <img height="155" width="155" alt="Matthew Wicks" src={imageProfile} />
       </div>
       <div className="About-description">
         <h1>&#9996; Heyyo World, I'm Matthew Wicks</h1>

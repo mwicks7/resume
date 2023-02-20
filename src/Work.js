@@ -1,12 +1,18 @@
 import React from 'react'
+import logoRef from './images/logo_ref.jpg'
+import logoWeblinc from './images/logo_weblinc.jpg'
+import logoFH from './images/logo_fh.jpg'
+import logoSedso from './images/logo_sedso.jpg'
+import logoSides from './images/logo_sides.jpg'
+import logoUarts from './images/logo_uarts.jpg'
 
 const companiesData = [
-  {img: 'images/logo_ref.jpg', color: 'black', name: 'Reformation', position: 'Software Engineer', time: '2 yrs 6 mos'},
-  {img: 'images/logo_weblinc.jpg', color: 'red', name: 'Weblinc Ecommerce', position: 'Lead Front-End Dev', time: '4 yrs 5 mos'},
-  {img: 'images/logo_fh.jpg', color: 'gold', name: 'Fame House', position: 'Full Stack Dev', time: '2 yrs 1 mos'},
-  {img: 'images/logo_sedso.jpg', color: 'black', name: 'Sedso Design', position: 'Back-End Dev', time: '4 yrs 5 mos (Freelance)'},
-  {img: 'images/logo_sides.jpg', color: 'black', name: 'Sides Media', position: 'Full Stack Dev', time: '2 yrs 11 mos'},
-  {img: 'images/logo_uarts.jpg', color: 'red', name: 'The University of the Arts', position: 'Peer Tutor, Teacher\'s Assistant', time: 'BS in Multimedia'}
+  {img: logoRef, color: 'black', name: 'Reformation', position: 'Software Engineer', time: '2 yrs 6 mos'},
+  {img: logoWeblinc, color: 'red', name: 'Weblinc Ecommerce', position: 'Lead Front-End Dev', time: '4 yrs 5 mos'},
+  {img: logoFH, color: 'gold', name: 'Fame House', position: 'Full Stack Dev', time: '2 yrs 1 mos'},
+  {img: logoSedso, color: 'black', name: 'Sedso Design', position: 'Back-End Dev', time: '4 yrs 5 mos (Freelance)'},
+  {img: logoSides, color: 'black', name: 'Sides Media', position: 'Full Stack Dev', time: '2 yrs 11 mos'},
+  {img: logoUarts, color: 'red', name: 'The University of the Arts', position: 'Peer Tutor, Teacher\'s Assistant', time: 'BS in Multimedia'}
 ]
 
 const frontEndSkills = ['HTML', 'Scss', 'Node', 'Javascript', 'a11y', 'SEO', 'Analytics']

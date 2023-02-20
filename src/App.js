@@ -23,6 +23,12 @@ function App() {
           <Lab />
         </div>
       </section>
+
+      <section className="App-section is--dark">
+        <div className="App-container">
+          footer
+        </div>
+      </section>
     </main>
   );
 }
