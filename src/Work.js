@@ -50,17 +50,10 @@ function Work () {
         <Companies/>
         <div className="Work-details">
           <div className="Work-skills">
-            <h3>Skills</h3>
+            <h3>Top Skills</h3>
               <div><b>Front-End:</b> {frontEndSkills.join(", ")}</div>
               <div><b>Back-End:</b> {backEndSkills.join(", ")}</div>
               <div><b>Ecommerce:</b> {ecommerceSkills.join(", ")}</div>
-          </div>
-          <div className="Work-contact">
-            <h3>Contact</h3>
-            <ul>
-              {/* <li><a href="email:me@matthew-wicks.com">me@matthew-wicks.com</a></li> */}
-              <li><a href="https://www.linkedin.com/in/mwicks/">LinkedIn</a> · <a href="https://github.com/mwicks7/">github</a></li>
-            </ul>
           </div>
         </div>
     </div>

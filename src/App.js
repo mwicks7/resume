@@ -24,9 +24,10 @@ function App() {
         </div>
       </section>
 
-      <section className="App-section is--dark">
+      <section className="App-section is--dark is--centered">
         <div className="App-container">
-          footer
+          <h2>Thanks for stopping by</h2>
+          <h3>Learn more at <a href="https://www.linkedin.com/in/mwicks/">LinkedIn</a> &amp; <a href="https://github.com/mwicks7/">github</a></h3>
         </div>
       </section>
     </main>

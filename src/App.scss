@@ -6,6 +6,10 @@
     background-color: #f0f0f0;
   }
 
+  &.is--centered {
+    text-align: center;
+  }
+
   @include breakpoint {
     padding: 60px 0;
   }
