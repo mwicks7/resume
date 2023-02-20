@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.3eadf940.css",
-    "main.js": "/resume/static/js/main.3ea764b9.js",
+    "main.js": "/resume/static/js/main.cd4e153f.js",
     "static/js/787.1ed0c42c.chunk.js": "/resume/static/js/787.1ed0c42c.chunk.js",
+    "static/media/sedso_content_manager.jpg": "/resume/static/media/sedso_content_manager.910ea1a5b5a8742e50d9.jpg",
+    "static/media/lab_table_of_fifths7.webp": "/resume/static/media/lab_table_of_fifths7.cb093e1a1f9d25786312.webp",
+    "static/media/profile_photo.webp": "/resume/static/media/profile_photo.e637fc3068382720fc11.webp",
     "static/media/logo.svg": "/resume/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/resume/index.html",
     "main.3eadf940.css.map": "/resume/static/css/main.3eadf940.css.map",
-    "main.3ea764b9.js.map": "/resume/static/js/main.3ea764b9.js.map",
+    "main.cd4e153f.js.map": "/resume/static/js/main.cd4e153f.js.map",
     "787.1ed0c42c.chunk.js.map": "/resume/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3eadf940.css",
-    "static/js/main.3ea764b9.js"
+    "static/js/main.cd4e153f.js"
   ]
 }
