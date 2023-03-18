@@ -2,27 +2,33 @@ $lab-image-size: 300px;
 
 .Lab {}
 
-  .Lab-project {
+  .Lab-projects {
     @include flex-container;
-    margin-bottom: 20px;
+    gap: $gap-size * 2;
   }
 
-  .Lab-image {
-    flex: 1 0 $lab-image-size;
-    width: $lab-image-size;
-    height: $lab-image-size;
-    padding: 1px;
-    background: linear-gradient(to bottom, black, $font-color-grey);
-
-    img {
-      max-width: 100%;
+    .Lab-project {
+      margin-bottom: 20px;
+      width: 300px;
     }
 
-    @include breakpoint {
+    .Lab-image {
+      flex: 1 0 $lab-image-size;
+      width: $lab-image-size;
+      height: $lab-image-size;
+      border: 1px solid grey;
+      border-radius: 10px;
+      overflow: hidden;
 
+      img {
+        max-width: 100%;
+      }
+
+      @include breakpoint {
+
+      }
     }
-  }
 
-  .Lab-description {
-    flex: 1 1 100%;
-  }
+    .Lab-description {
+      flex: 1 1 100%;
+    }

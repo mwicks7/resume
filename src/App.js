@@ -1,18 +1,20 @@
-import logo from './logo.svg'
 import Work from './Work.js'
+import Skills from './Skills.js'
 import Lab from './Lab.js'
 import About from './About.js'
+import Footer from './Footer.js'
 
-function App() {
+
+const App = () => {
   return (
     <main className="App">
-      <header className="App-header">
-        <div className="App-container is--large">
+      <header className="App-section">
+        <div className="App-container">
           <About />
         </div>
       </header>
 
-      <section className="App-section is--dark ">
+      <section className="App-section">
         <div className="App-container">
           <Work />
         </div>
@@ -20,16 +22,21 @@ function App() {
 
       <section className="App-section">
         <div className="App-container">
+          <Skills />
+        </div>
+      </section>
+
+      <section className="App-section">
+        <div className="App-container is--full-width">
           <Lab />
         </div>
       </section>
 
-      <section className="App-section is--dark is--centered">
+      <footer className="App-section">
         <div className="App-container">
-          <h2>Thanks for stopping by</h2>
-          <h3>Learn more at <a href="https://www.linkedin.com/in/mwicks/">LinkedIn</a> &amp; <a href="https://github.com/mwicks7/">github</a></h3>
+          <Footer />
         </div>
-      </section>
+      </footer>
     </main>
   );
 }

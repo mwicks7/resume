@@ -1,31 +1,22 @@
-.App-header, .App-section {
-  padding: 40px $gap-size;
-  background-color: #ffffff;
+.App-section {
+  padding: 40px 15px;
+  overflow-x: scroll;
+  max-width: 100%;
 
-  &.is--dark {
+  &:nth-child(odd) {
     background-color: #f0f0f0;
   }
-
-  &.is--centered {
-    text-align: center;
-  }
-
+  
   @include breakpoint {
-    padding: 60px 0;
+    padding: 40px 30px;
   }
 }
-
  
   .App-container {
-    width: 100%;
-    max-width: $container-width;
-    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
 
-    &.is--large {
-      max-width: $container-width-l;
+    .is--full-width {
+      width: 100%
     }
-  }
-
-  .App-divider {
-    border-bottom: $border-thickness solid white;
   }

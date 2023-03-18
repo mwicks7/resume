@@ -1,17 +1,13 @@
 $border-thickness: 4px;
 $font-color-grey: #f0f0f0;
-$font-size: 13px;
-$font-size-l: 16px;
-$font-size-xl: 20px;
+$font-size: 16px;
+$font-size-l: 18px;
+$font-size-xl: 24px;
 $font-size-xxl: 30px;
 $gap-size: 15px;
-$margin-size: 25px;
-
-$container-width: 600px;
-$container-width-l: 750px;
 
 @mixin breakpoint {
-  @media (min-width: #{$container-width}) {
+  @media (min-width: #{800px}) {
     @content;
   }
 }
