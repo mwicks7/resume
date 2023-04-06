@@ -12,7 +12,7 @@ const companiesData = [
   {img: logoWeblinc, name: 'Weblinc Ecommerce', position: 'Lead Front-End Dev', time: '4 yrs 5 mos'},
   {img: logoFH, name: 'Fame House', position: 'Full Stack Dev', time: '2 yrs 1 mos'},
   {img: logoSedso, name: 'Sedso Design', position: 'Back-End Dev', time: '4 yrs 5 mos (Freelance)'},
-  {img: logoSides, name: 'Sides Media', position: 'Full Stack Dev', time: '2 yrs 11 mos'},
+  {img: logoSides, name: 'Sides Media', position: 'Front-End Dev', time: '2 yrs 11 mos'},
   {img: logoBbd, name: 'Backyard Booking & Design', position: 'Partner, Web Dev, Designer', time: '3 yrs'},
   {img: logoUarts, name: 'The University of the Arts', position: 'Peer Tutor, Teacher\'s Assistant', time: 'BS in Multimedia'}
 ]
