@@ -15,6 +15,12 @@ const App = () => {
       </header>
 
       <section className="App-section">
+        <div className="App-container is--full-width">
+          <Lab />
+        </div>
+      </section>
+
+      <section className="App-section">
         <div className="App-container">
           <Work />
         </div>
@@ -23,12 +29,6 @@ const App = () => {
       <section className="App-section">
         <div className="App-container">
           <Skills />
-        </div>
-      </section>
-
-      <section className="App-section">
-        <div className="App-container is--full-width">
-          <Lab />
         </div>
       </section>
 
