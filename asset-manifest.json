@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.ca476492.css",
-    "main.js": "/resume/static/js/main.1f28cad2.js",
+    "main.css": "/resume/static/css/main.0a10408d.css",
+    "main.js": "/resume/static/js/main.532ccd7b.js",
     "static/js/787.1ed0c42c.chunk.js": "/resume/static/js/787.1ed0c42c.chunk.js",
     "static/media/sedso_content_manager.jpg": "/resume/static/media/sedso_content_manager.910ea1a5b5a8742e50d9.jpg",
     "static/media/profile_photo2.jpg": "/resume/static/media/profile_photo2.25ea05940853f4621b9a.jpg",
@@ -9,12 +9,12 @@
     "static/media/lab_jeopardy.jpg": "/resume/static/media/lab_jeopardy.f7acf9f0453044551b1f.jpg",
     "static/media/lab_table_of_fifths7.webp": "/resume/static/media/lab_table_of_fifths7.cb093e1a1f9d25786312.webp",
     "index.html": "/resume/index.html",
-    "main.ca476492.css.map": "/resume/static/css/main.ca476492.css.map",
-    "main.1f28cad2.js.map": "/resume/static/js/main.1f28cad2.js.map",
+    "main.0a10408d.css.map": "/resume/static/css/main.0a10408d.css.map",
+    "main.532ccd7b.js.map": "/resume/static/js/main.532ccd7b.js.map",
     "787.1ed0c42c.chunk.js.map": "/resume/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca476492.css",
-    "static/js/main.1f28cad2.js"
+    "static/css/main.0a10408d.css",
+    "static/js/main.532ccd7b.js"
   ]
 }
