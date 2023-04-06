@@ -1,10 +1,28 @@
 import fifthsImage from './images/lab_table_of_fifths7.webp'
 import sedsoImage from './images/sedso_content_manager.jpg'
+import jeopardyImage from './images/lab_jeopardy.jpg'
+import rockImage from './images/lab_rock_paper_scissors.jpg'
 
 const labData = [
   {
+    img: jeopardyImage,
+    title: 'JEOPARDY.js App',
+    description: 'I\'m not Alex Trebek but "THIS IS JEOPARDY.js." Test your trivia skills with actual clues from 38 seasons of the show.',
+    madeWith: 'React and JService.io',
+    links: [
+      {
+        text: 'Launch App',
+        href: 'https://mwicks7.github.io/jeopardy.js'
+      },
+      {
+        text: 'View source',
+        href: 'https://github.com/mwicks7/jeopardy.js'
+      }
+    ]
+  },
+  {
     img: fifthsImage,
-    title: 'The Table of Fifths React App',
+    title: 'The Table of Fifths App',
     description: 'You might be familiar with the "Circle of Fifths". Well, "The Table of Fifths" literally re-invents the wheel. Utilizing instrument diagrams and music notation you can learn fundamental key signatures and the relationships between them.',
     madeWith: 'React and tonal.js',
     links: [
@@ -18,15 +36,31 @@ const labData = [
       }
     ]
   },
+  // {
+  //   img: sedsoImage,
+  //   title: 'SEDSO Content Management System',
+  //   description: 'I worked with SEDSO Design to create a minimalist content management solution for their small business clients.',
+  //   madeWith: 'CodeIgniter and jQuery',
+  //   links: [
+  //     {
+  //       text: 'View Screenshots',
+  //       href: 'https://mwicks7.github.io/the-table-of-fifths'
+  //     }
+  //   ]
+  // },
   {
-    img: sedsoImage,
-    title: 'SEDSO Content Management System',
-    description: 'I worked with SEDSO Design to create a minimalist content management solution for their small business clients.',
-    madeWith: 'CodeIgniter and jQuery',
+    img: rockImage,
+    title: 'Rock, Paper, Scissors: Humans vs Robots',
+    description: 'Do you have what it takes to beat the robots in the classic game, "Rock, Paper, Scissors?"',
+    madeWith: 'React',
     links: [
       {
-        text: 'View Screenshots',
-        href: 'https://mwicks7.github.io/the-table-of-fifths'
+        text: 'Launch App',
+        href: 'https://mwicks7.github.io/rock-paper-scissors'
+      },
+      {
+        text: 'View source',
+        href: 'https://github.com/mwicks7/rock-paper-scissors'
       }
     ]
   },
