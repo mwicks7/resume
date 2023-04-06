@@ -1,4 +1,4 @@
-import imageProfile from './images/profile_photo.webp'
+import imageProfile from './images/profile_photo2.jpg'
 
 const About = () => {
   return (
