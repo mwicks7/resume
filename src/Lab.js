@@ -74,7 +74,7 @@ const Article = ({ lab }) => {
   return (
     <article className="Lab-project">
       <div className="Lab-image">
-        <img height="300" width="300" alt="The Table of Fifths preview" src={lab.img} />
+        <img height="300" width="300" loading="lazy" alt="The Table of Fifths preview" src={lab.img} />
       </div>
       <div className="Lab-description">
         <h3 className="Lab-name">{lab.title}</h3>

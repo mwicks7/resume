@@ -3,7 +3,7 @@ import imageProfile from './images/profile_photo2.jpg'
 const About = () => {
   return (
     <div className="About">
-      <img className="About-image" height="155" width="155" alt="Matthew Wicks" src={imageProfile} />
+      <img className="About-image" height="155" width="155" loading="lazy" alt="Matthew Wicks" src={imageProfile} />
 
       <div className="About-details">
         <h1>&#9996; Hey-yo World, I'm Matthew Wicks</h1>

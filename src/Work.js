@@ -20,7 +20,7 @@ const companiesData = [
 const Company = ({ company }) => {
   return (
     <li className="Work-company">
-      <img className="Work-company-logo" height="75" width="75" alt={company.name + ' logo'} src={company.img} />
+      <img className="Work-company-logo" height="75" width="75" loading="lazy" alt={company.name + ' logo'} src={company.img} />
       <div className="Work-company-details">
         <div><strong>{company.name}</strong></div>
         <div>{company.position}</div>
