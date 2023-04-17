@@ -2,8 +2,25 @@ import fifthsImage from './images/lab_table_of_fifths7.webp'
 import sedsoImage from './images/sedso_content_manager.jpg'
 import jeopardyImage from './images/lab_jeopardy.jpg'
 import rockImage from './images/lab_rock_paper_scissors.jpg'
+import parksImage from './images/lab_national_parks.jpg'
 
 const labData = [
+  {
+    img: parksImage,
+    title: 'National Parks Maps Directory',
+    description: 'Explore what to do and where to go when visiting the The United States national parks. (in progress)',
+    madeWith: 'Next.js, MongoDB, nps.gov API, and Google Maps API',
+    links: [
+      {
+        text: 'Launch App',
+        href: 'https://national-parks-directory.vercel.app/'
+      },
+      {
+        text: 'View source',
+        href: 'https://github.com/mwicks7/national-parks-directory'
+      }
+    ]
+  },
   {
     img: jeopardyImage,
     title: 'JEOPARDY.js',
