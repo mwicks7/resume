@@ -8,7 +8,7 @@ const labData = [
   {
     img: parksImage,
     title: 'National Parks Maps Directory',
-    description: 'Explore what to do and where to go when visiting the The United States national parks. (in progress)',
+    description: 'Explore what to do and where to go when visiting the The United States\' national parks. (in progress)',
     madeWith: 'Next.js, MongoDB, nps.gov API, and Google Maps API',
     links: [
       {
