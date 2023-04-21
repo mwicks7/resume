@@ -40,7 +40,7 @@ const labData = [
   {
     img: jeopardyImage,
     title: 'JEOPARDY!js',
-    description: 'I\'m not Alex Trebek, but "THIS IS JEOPARDY!" Test your trivia skills with actual clues from 38 seasons of the show.',
+    description: 'I\'m not Alex Trebek, but, "THIS IS JEOPARDY!" Test your trivia skills with actual clues from 38 seasons of the show.',
     madeWith: 'React and JService.io',
     links: [
       {
@@ -56,7 +56,7 @@ const labData = [
   {
     img: fifthsImage,
     title: 'The Table of Fifths',
-    description: 'You might be familiar with "The Circle of Fifths," well "The Table of Fifths" literally deconstructs the wheel. Utilizing instrument diagrams and music notation you can learn fundamental key signatures and the relationships between them.',
+    description: 'You might be familiar with the circle of fifths. Well, "The Table of Fifths" deconstructs the wheel. Utilizing instrument diagrams and music notation you can learn fundamental key signatures and the relationships between them.',
     madeWith: 'React and tonal.js',
     links: [
       {
