@@ -3,12 +3,28 @@ import sedsoImage from './images/sedso_content_manager.jpg'
 import jeopardyImage from './images/lab_jeopardy.jpg'
 import rockImage from './images/lab_rock_paper_scissors.jpg'
 import parksImage from './images/lab_national_parks.jpg'
+import astroImage from './images/lab_astro.jpg'
 
 const labData = [
   {
+    img: astroImage,
+    title: 'Astro Realty',
+    description: 'Do you want to own part of the cosmos? Well, know you can with this faux ecommerce site. (in progress)',
+    madeWith: 'Next.js, MongoDB',
+    links: [
+      {
+        text: 'Launch App',
+        href: 'https://e-commerce-lab.vercel.app/'
+      },
+      {
+        text: 'View source',
+        href: 'https://github.com/mwicks7/e-commerce-lab'
+      }
+    ]
+  },{
     img: parksImage,
-    title: 'National Parks Maps Directory',
-    description: 'Explore what to do and where to go when visiting the The United States\' national parks. (in progress)',
+    title: 'The USA National Parks Map Directory',
+    description: 'Explore what to do and where to go when visiting the The United States\' national parks.',
     madeWith: 'Next.js, MongoDB, nps.gov API, and Google Maps API',
     links: [
       {
