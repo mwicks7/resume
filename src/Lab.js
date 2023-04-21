@@ -40,7 +40,7 @@ const labData = [
   {
     img: jeopardyImage,
     title: 'JEOPARDY!js',
-    description: 'I\'m not Alex Trebek but, "THIS IS JEOPARDY!" Test your trivia skills with actual clues from 38 seasons of the show.',
+    description: 'I\'m not Alex Trebek, but "THIS IS JEOPARDY!" Test your trivia skills with actual clues from 38 seasons of the show.',
     madeWith: 'React and JService.io',
     links: [
       {
