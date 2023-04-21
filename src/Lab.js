@@ -9,7 +9,7 @@ const labData = [
   {
     img: astroImage,
     title: 'Astro Realty',
-    description: 'Do you want to own part of the cosmos? Well, know you can with this faux ecommerce site. (in progress)',
+    description: 'Do you want to own part of the cosmos? Well, now you can with this faux ecommerce site. (in progress)',
     madeWith: 'Next.js, MongoDB',
     links: [
       {
