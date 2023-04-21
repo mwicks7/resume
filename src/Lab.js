@@ -24,7 +24,7 @@ const labData = [
   },{
     img: parksImage,
     title: 'The USA National Parks Map Directory',
-    description: 'Explore what to do and where to go when visiting the The United States\' national parks.',
+    description: 'Explore what to do and where to go when visiting the national parks in America.',
     madeWith: 'Next.js, MongoDB, nps.gov API, and Google Maps API',
     links: [
       {
@@ -56,7 +56,7 @@ const labData = [
   {
     img: fifthsImage,
     title: 'The Table of Fifths',
-    description: 'You might be familiar with the circle of fifths. Well, "The Table of Fifths" deconstructs the wheel. Utilizing instrument diagrams and music notation you can learn fundamental key signatures and the relationships between them.',
+    description: 'You might be familiar with <i>The Circle of Fifths</i>. Well, <i>The Table of Fifths</i> deconstructs the wheel and utilizes instrument diagrams with music notation to help you learn fundamental key signatures and the relationships between them.',
     madeWith: 'React and tonal.js',
     links: [
       {
@@ -84,7 +84,7 @@ const labData = [
   {
     img: rockImage,
     title: 'Rock, Paper, Scissors: Humans vs Robots',
-    description: 'Do you have what it takes to beat the robots in the classic game, "Rock, Paper, Scissors?"',
+    description: 'Do you have what it takes to beat the robots in the classic game <i>Rock, Paper, Scissors</i>?',
     madeWith: 'React',
     links: [
       {
@@ -111,9 +111,10 @@ const Article = ({ lab }) => {
       </div>
       <div className="Lab-description">
         <h3 className="Lab-name">{lab.title}</h3>
-        <p>
-          {lab.description}
-        </p>
+        <p
+          dangerouslySetInnerHTML={{__html: lab.description}}
+        />
+         
         <p>
           <b>Made with:</b> {lab.madeWith }
         </p>
