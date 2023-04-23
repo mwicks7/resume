@@ -8,8 +8,8 @@ import astroImage from './images/lab_astro.jpg'
 const labData = [
   {
     img: astroImage,
-    title: 'Astro Realty',
-    description: 'Do you want to own part of the cosmos? Well, now you can with this faux ecommerce site. (in progress)',
+    title: 'Astro Ecommerce',
+    description: 'Want to own a piece of the cosmos? Now you can with this faux ecommerce site. (in progress)',
     madeWith: 'Next.js, MongoDB',
     links: [
       {
@@ -23,7 +23,7 @@ const labData = [
     ]
   },{
     img: parksImage,
-    title: 'The USA National Parks Map Directory',
+    title: 'US National Parks Map Directory',
     description: 'Explore what to do and where to go when visiting the national parks in America.',
     madeWith: 'Next.js, MongoDB, nps.gov API, and Google Maps API',
     links: [
