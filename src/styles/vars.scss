@@ -7,7 +7,7 @@ $font-size-xxl: 30px;
 $gap-size: 15px;
 
 @mixin breakpoint {
-  @media (min-width: #{800px}) {
+  @media (min-width: #{767px}) {
     @content;
   }
 }
@@ -16,7 +16,7 @@ $gap-size: 15px;
   display: flex;
   flex-direction: column;
   gap: $gap-size;
-  
+
   @include breakpoint {
     flex-direction: row;
   }

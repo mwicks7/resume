@@ -1,9 +1,8 @@
-import Work from './Work.js'
-import Skills from './Skills.js'
-import Lab from './Lab.js'
-import About from './About.js'
-import Footer from './Footer.js'
-
+import Work from "./Work.js";
+import Skills from "./Skills.js";
+import Lab from "./Lab.js";
+import About from "./About.js";
+import Footer from "./Footer.js";
 
 const App = () => {
   return (
@@ -15,7 +14,7 @@ const App = () => {
       </header>
 
       <section className="App-section">
-        <div className="App-container is--full-width">
+        <div className="App-container">
           <Lab />
         </div>
       </section>
@@ -39,6 +38,6 @@ const App = () => {
       </footer>
     </main>
   );
-}
+};
 
 export default App;

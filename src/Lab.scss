@@ -1,34 +1,49 @@
 $lab-image-size: 300px;
 
-.Lab {}
+.Lab {
+}
 
-  .Lab-projects {
-    @include flex-container;
-    gap: $gap-size * 2;
+.Lab-projects {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: $gap-size * 2;
+
+  @include breakpoint {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.Lab-project {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.Lab-image {
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  overflow: hidden;
+
+  a {
+    display: block;
   }
 
-    .Lab-project {
-      margin-bottom: 20px;
-      width: 300px;
+  img {
+    width: 100%;
+  }
+}
+
+.Lab-name {
+  a {
+    color: #000000;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
     }
+  }
+}
 
-    .Lab-image {
-      flex: 1 0 $lab-image-size;
-      width: $lab-image-size;
-      height: $lab-image-size;
-      border: 1px solid grey;
-      border-radius: 10px;
-      overflow: hidden;
-
-      img {
-        max-width: 100%;
-      }
-
-      @include breakpoint {
-
-      }
-    }
-
-    .Lab-description {
-      flex: 1 1 100%;
-    }
+.Lab-description {
+  flex: 1 1 100%;
+}
