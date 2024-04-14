@@ -4,7 +4,7 @@ $font-size: 16px;
 $font-size-l: 18px;
 $font-size-xl: 24px;
 $font-size-xxl: 30px;
-$gap-size: 15px;
+$gap-size: 30px;
 
 @mixin breakpoint {
   @media (min-width: #{767px}) {

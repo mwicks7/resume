@@ -4,7 +4,7 @@
 .Work-companies {
   display: grid;
   grid-template-columns: 100%;
-  gap: $gap-size;
+  gap: $gap-size / 2;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -18,7 +18,7 @@
 .Work-company {
   display: flex;
   align-items: center;
-  gap: $gap-size;
+  gap: $gap-size / 2;
 }
 
 .Work-company-logo {

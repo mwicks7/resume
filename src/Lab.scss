@@ -6,7 +6,7 @@ $lab-image-size: 300px;
 .Lab-projects {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: $gap-size * 2;
+  gap: $gap-size;
 
   @include breakpoint {
     grid-template-columns: repeat(3, 1fr);
